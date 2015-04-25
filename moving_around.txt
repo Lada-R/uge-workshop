@@ -1,0 +1,500 @@
+   40  ping 10.0.0.6
+   41  ping 10.0.1.10
+   42  ls
+   43  cwd
+   44  ls
+   45  cd
+   46  pwd
+   47  less
+   48  ls
+   49  ls -l ~
+   50  pwd
+   51  cd
+   52  cd Documents
+   53  cd /Users/Lada/Documents
+   54  cd ~/Documents
+   55  ..
+   56  cd ..
+   57  cd ..
+   58  cd ..
+   59  man
+   60  run
+   61  man run
+   62  man ls
+   63  man man
+   64  man mkdir
+   65  man touch
+   66  man cp
+   67  mv
+   68  man mv
+   69  man rm
+   70  man less
+   71  clear
+   72  ls -l /home/ryan
+   73  ls -l /home/Lada
+   74  echo
+   75  ды
+   76  ls
+   77  ls -l
+   78  ls /etc
+   79  ls -l /etc
+   80  pwd
+   81  ls Documents
+   82  /Users/Lada/Documents
+   83  ls /home/Lada/Documents
+   84  ls /Home/Lada/Documents
+   85  ls /Users/Lada/Documents
+   86  ~/Documents
+   87  clear
+   88  path /Users/Lada/Documents
+   89  ~Documents
+   90  ~ /Documents
+   91  .
+   92  . /Documents
+   93  ./Documents
+   94  ../Documents
+   95  ../Documents
+   96  .eg
+   97  . eg
+   98  clear
+   99  pwd
+  100  ls ~/Document
+  101  ls ~/Documents
+  102  ls ./Douments
+  103  ls ~/Documents
+  104  ls /Users/Lada/Documents
+  105  ls ../../
+  106  ls /
+  107  св
+  108  сдуфк
+  109  clear
+  110  pwd
+  111  cd Documents
+  112  ls
+  113  cd /
+  114  pwd
+  115  ls
+  116  cd ~/Documents
+  117  pwd
+  118  cd ../../
+  119  pwd
+  120  cd
+  121  pwd
+  122  clear
+  123  cd /Users/Lada/
+  124  ls /etc
+  125  ls /var/log
+  126  ls /bin
+  127  ls /usr/bin
+  128  ls -a
+  129  ls -a Documents
+  130  ls -a Documents
+  131  ls file
+  132  file
+  133  file Documents
+  134  file Documents/zz/
+  135  file Documents/zz
+  136  file Documents/zz.docx
+  137  pwd
+  138  file /Users/Lada/Documents
+  139  ls
+  140  pwd
+  141  ls -a
+  142  ls -a Documents
+  143  clear
+  144  man ls
+  145  man -k remove
+  146  ls man
+  147  man ls
+  148  pwd
+  149  ls -a
+  150  ls --a
+  151  ls --all
+  152  -alh
+  153  man ls
+  154  man -F
+  155  man ls _F
+  156  man ls -F
+  157  man ls -C
+  158  man ls --C
+  159  clear
+  160  pwd
+  161  ls /Users/Lada/Documents
+  162  ls -a
+  163  ls --a
+  164  --al
+  165  --all
+  166  ls --all
+  167  ls -alh
+  168  ls~ Documents
+  169  clear
+  170  pwd
+  171  ls
+  172  mkdir unixtutorial
+  173  ls
+  174  mkdir /Users/Lada/foo
+  175  ls
+  176  mkdir ./blah
+  177  ls
+  178  mkdir ../dir1
+  179  mkdir ../rose
+  180  pwd
+  181  ls
+  182  mkdir ~unixtutorial/rose
+  183  mkdir man
+  184  ls
+  185  ls mkdir man
+  186  ls man mkdir
+  187  clear
+  188  mkdir -p unixtutorial/foo/bar
+  189  cd unixtuturial/foo/bar
+  190  pwd
+  191  ls
+  192  mkdir man
+  193  ls
+  194  man mkdir
+  195  mkdir -p unixtutorial/foo
+  196  mkdir -p unixtutorial/foo/bar
+  197   cd unixtutorial/foo/bar
+  198  pwd
+  199  ls
+  200  pwd
+  201  clear
+  202  mkdir -pv unixtutorial/foo/bar
+  203  ls
+  204  ./Documents
+  205  cd ./Documents
+  206  ls
+  207  pwd
+  208  cd /Users/Lada/Documents
+  209  ls
+  210  clear
+  211  cd /Users/Lada
+  212  mkdir -pv unixtutorial/foo/bar
+  213  ls
+  214  mkdir -pv unixtutorial/foo/bar
+  215  man mkdir
+  216  ls
+  217  mkdir -pv unixturorial/foo/bar
+  218  pwd
+  219  cd unixtutorial/foo/bar
+  220  pwd
+  221  clear
+  222  rmdir unixtutorial/foo/bar
+  223  ls unixtutorial/foo
+  224  ls
+  225  ./Users
+  226  ./Documents
+  227  clear
+  228  pwd
+  229  pwd
+  230  rmidir unixtutorial/foo/bar
+  231  rmdir unixtutorial/foo/bar
+  232  ls unixtutorial/foo
+  233  pwd
+  234  ls
+  235  pwd
+  236  touch example
+  237  ls
+  238  ls
+  239  ls
+  240  cp example barney
+  241  ls
+  242  cp /Users/Lada/unixtutorial/example example 2
+  243  cp /Users/Lada/unixtutorial/example example2
+  244  cp /Users/Lada/unixtutorial/example2 example3
+  245  cp /Users/Lada/unixtutorial/example2 example3
+  246  clear
+  247  cp example../../backups
+  248  ls
+  249  cp exampleq../../backups
+  250  ls
+  251  clear
+  252  cp example2 ../../backups
+  253  ls
+  254  ls
+  255  cp foo foo2
+  256  cp -r foo foo2
+  257  ls
+  258  ls
+  259  mkdir foo foo2
+  260  mkdir backups
+  261  mv foo2 backups/foo3
+  262  mv barney backups/
+  263  ls
+  264  clear
+  265  ls
+  266  mv foo foo3
+  267  ls
+  268  ls
+  269  cd ..
+  270  mkdir unixtutorial/testdir
+  271  mkdir unixtutorial/example
+  272  mkdir unixtutorial
+  273  ls
+  274  rm example
+  275  ls
+  276  ls
+  277  rmdir backups
+  278  rm -r backups
+  279  ls
+  280  git config --global user.name "Lada"
+  281  git config --global user.name "Lada"
+  282  git config --global user.email "lada.rodgers@gmail.com"
+  283  ls
+  284  git config --global user.name "Lada"
+  285  git config --global user.email "lada.rodgers@gmail"
+  286  git config --global user.email "lada.rodgers@gmail.com"
+  287  git config
+  288  cat
+  289  cat ~/.git
+  290  cat ~/.gitconfig 
+  291  git config --global user.email "lada.rodgers@gmail.com"
+  292  clear
+  293  which git
+  294  ls/
+  295  ls /
+  296  ls -a /
+  297  ls -va /
+  298  ls -vc /
+  299  which git
+  300  jbhljk
+  301  git
+  302  clear
+  303  pwd
+  304  mkdir Development
+  305  cd Development/
+  306  git clone https://github.com/Lada-Rodgers/testRepository.git
+  307  cd ~/Development/testRepository/
+  308  git status
+  309  git add Hello.txt
+  310  git status
+  311  git
+  312  clr
+  313  clear
+  314  git commit -m First Commit
+  315  git commit -m "First Commit"
+  316  push -u origin master
+  317  git push -u origin master
+  318  shtorm_99
+  319  git push -u origin master
+  320  git push -u origin master
+  321  cd
+  322  pwd
+  323  cd ./Development/
+  324  git clone https://github.com/octocat/Spoon-Knife.git
+  325  git
+  326  pwd
+  327  cd code
+  328  cd
+  329  /Users/Lada
+  330  cd
+  331  pwd
+  332  pwd
+  333  cd/
+  334  clear
+  335  cd/
+  336  ls
+  337  ls -t
+  338  ls -l
+  339  ls -lt
+  340  clear
+  341  ls -tl
+  342  ls -t -l
+  343  clear
+  344  ls -r
+  345  ls -r -l
+  346  ls -l -r
+  347  clear
+  348  ls -t -l -r
+  349  ls -r
+  350  ls-l -r
+  351  ls -r
+  352  clear
+  353  man
+  354  man ls
+  355  man ls
+  356  ls q
+  357  ls -q
+  358  ls man
+  359  man ls
+  360  ls -@
+  361  man ls
+  362  ls -A
+  363  ls -a
+  364  clear
+  365  man ls
+  366  ls -H
+  367  man ls
+  368  ls-S
+  369  ls -s
+  370  man ls
+  371  ls -W
+  372  man ls
+  373  pwd
+  374  /Users/Lada
+  375  cd
+  376  cd/tmp
+  377  mkdir my\folder
+  378  cd my\folder
+  379  mkdir my-folder
+  380  cd my-folder
+  381  cd documents
+  382  cd Documents
+  383  cd documentsclear
+  384  clear
+  385  cd
+  386  ls
+  387  ls -l
+  388  cd/Music
+  389  ls -l
+  390  cd Swim
+  391  pwd
+  392  clear
+  393  cd
+  394  ls
+  395  cd ..
+  396  cd ..
+  397  pwd
+  398  ..
+  399  cd ..
+  400  pwd
+  401  cd Music
+  402  pwd
+  403  cd ../..
+  404  cd Swim/myfolder
+  405  pwd
+  406  ../..
+  407  ../../..
+  408  /
+  409  less ../
+  410  cd..Library
+  411  cd ..pwd
+  412  clear
+  413  ls
+  414  pwd
+  415  cd my-folder
+  416  cd
+  417  ls
+  418  cd ../myfolder
+  419  cd
+  420  pwd
+  421  clear
+  422  ls -l
+  423  ls
+  424  cd../
+  425  cd Users/Lada/Library
+  426  Users/Lada/Applications/
+  427  Users/Applicatins/Cache.db
+  428  clear
+  429  ls
+  430  cd myfoder
+  431  cd myfolder
+  432  cd../Documents/
+  433  cd ../Documents/
+  434  cd ../Desktop/..
+  435  pwd
+  436  cd ../Library
+  437  cd ../Library/
+  438  cd ../Librar/
+  439  cd ../Library
+  440  cd ../Library
+  441  pwd
+  442  cd ../Dropbox/
+  443  cd ../Public/
+  444  cd ../Public/
+  445  clear
+  446  ls
+  447  cd ../Public/
+  448  cd
+  449  ls
+  450  ls ..
+  451  cd ../Lada/Public/
+  452  ls ..
+  453  cd ../Movies/
+  454  cd
+  455  pwd
+  456  cd ..
+  457  cd ../
+  458  ls ..
+  459  ls ..
+  460  clear
+  461  cd ../Lada/public
+  462  cd ../Lada/Public/
+  463  ls ..
+  464   cd ../Lada/Public/
+  465  pwd
+  466  cd ..
+  467  cd ../dev/
+  468  cd ../etc/
+  469  cd ../private/
+  470  pwd
+  471  cd
+  472  ..
+  473  cd ..
+  474  cd
+  475  clear
+  476  ls~
+  477  ls~
+  478  cd
+  479  ls ~
+  480  cd ~
+  481  cd /private/
+  482  cd ~/dev
+  483  cd
+  484  ls /
+  485  ls ..
+  486  ls ../..
+  487  cd /bin/cores/
+  488  cd ..
+  489  clear
+  490  ls /
+  491  cd /dev/
+  492  cd /etc
+  493  cd /usr/
+  494  cd /usr/tmp/
+  495  cd /usr/
+  496  ls /usr/tmp/net/
+  497  ls /usr
+  498  ls /var
+  499  ls /dev/
+  500  clear
+  501  ls .
+  502  cd
+  503  ls .
+  504  ls ../..
+  505  pwd
+  506  /
+  507  history
+  508  clear
+  509  history 20
+  510  history 300
+  511  clear
+  512  less
+  513  history | less
+  514  history | less
+  515  man less
+  516  history > myfolder
+  517  ls
+  518  history ~/myfolder
+  519  history > dir
+  520  history ~/dir
+  521  echo "hello class"
+  522  echo "This is F" > my-file
+  523  cat my-file
+  524  echo "Hi"
+  525  history
+  526  history > myfolder
+  527  history | less
+  528  cat my-file
+  529  ls
+  530  cd myfolder
+  531  ls
+  532  cd my-folder/
+  533  ls
+  534  cd ../..
+  535  clear
+  536  ls
+  537  vi my-file 
+  538  clear
+  539  history > moving_around.txt
